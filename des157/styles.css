@@ -1,8 +1,0 @@
-#banner {
-    width: 800px; 
-    height: 250px;
-    position: relative;
-    background-color: rgb(182, 203, 231);
-    border: 2px solid rgb(202, 202, 202);
-    box-sizing: border-box;
-}
