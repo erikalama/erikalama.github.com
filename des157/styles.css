@@ -1,3 +1,6 @@
+
+/* //////////* BANNER */
+
 #banner {
     width: 800px; 
     height: 250px;
@@ -16,7 +19,6 @@
 
 }
 
-
 #banner:hover {
     cursor: pointer;
 }
@@ -32,6 +34,7 @@
 
 
 
+/* //////////* HEADER */
 
 
 h1 {
@@ -50,6 +53,7 @@ h2 {
 
 
 
+/* //////////* BODY */
 
 
 section {
@@ -76,11 +80,6 @@ aside {
 
 
 
-
-
-
-
-
 .container{
     display: flex;
     justify-content: center; 
@@ -94,4 +93,19 @@ aside {
 
 hr {
     width: 200px;
+}
+
+
+
+
+/* //////////* FOOTER */
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    padding-left: 60px;
 }
