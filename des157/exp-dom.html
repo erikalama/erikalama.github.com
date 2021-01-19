@@ -13,14 +13,14 @@
 
     var yayy = ["Great!", "You are awesome","You can do it.", "Have a great day ahead", "Know that you're awesome", "You got this", "You have a beautiful smile", "Make someome happy today", "Awesome Awosome Awesome, yes you're AWESOME", "You will have an Awesome day", "You will find something funny to do today."];
             function randomScale(min, max){
-         var numScale = max - min + 1;
-         var userScale = Math.random() * numScale;
+         var numScale = max - min + 1; 
+         var userScale = (Math.random() * numScale);
          var finalScale = Math.floor(userScale) + min;
              return finalScale;
 }
 
 function feel(){
-    var userScale = prompt("How are you feeling today? From 1-10 scale?", "");
+    var userScale = prompt("How are you feeling today? From 1-10 scale?");
 
     if (userScale == randomScale(1,10)){
         console.log("Yayy, you are awesome");
