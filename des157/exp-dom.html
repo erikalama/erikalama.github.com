@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp-DOM JS Experimentation - Functions & DOM</title>
+</head>
+<body>
+    <h1>YOU GOT THIS</h1>
+    <p>Hope you have a great day ahead^^</p>
+
+    <script>
+
+    var yayy = ["Great!", "You are awesome","You can do it.", "Have a great day ahead", "Know that you're awesome", "You got this", "You have a beautiful smile", "Make someome happy today", "Awesome Awosome Awesome, yes you're AWESOME", "You will have an Awesome day", "You will find something funny to do today."];
+            function randomScale(min, max){
+         var numScale = max - min + 1;
+         var userScale = Math.random() * numScale;
+         var finalScale = Math.floor(userScale) + min;
+             return finalScale;
+}
+
+function feel(){
+    var userScale = prompt("How are you feeling today? From 1-10 scale?", "");
+
+    if (userScale == randomScale(1,10)){
+        console.log("Yayy, you are awesome");
+    }
+    else if (userScale < 1 || userScale > 10){
+        console.log("please enter the nimber between 1-10");
+    }
+    else {
+        console.log(yayy[randomScale(1,10)]);
+    }
+}
+
+        feel();
+
+    </script>
+    
+</body>
+</html>
