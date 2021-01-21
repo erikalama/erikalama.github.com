@@ -10,12 +10,17 @@ header{
 h1 {
   font-family: 'Aclonica';
   font-size: 40px;
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
           /* body */
   
-  
+  body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
+  }
+
   .articlebox .boxarticle {
     padding: 10px; 
   }
@@ -27,7 +32,7 @@ h1 {
 
   article {
     margin: auto;
-    border-radius: 12px;
+    border-radius: 6px;
     margin-bottom: 30px;
     width: 860px;
     background-color: rgb(255, 255, 255);
@@ -38,13 +43,6 @@ h1 {
     box-shadow:         3px 3px 5px 6px #ccc;
 
 }
-/* 
-article a {
-  text-decoration: none;
-  border: .05em solid rgb(0, 15, 82);
-  color: rgb(13, 0, 131);
-  border-radius: 4px;
-} */
 
 
 /* footer */
@@ -53,7 +51,7 @@ article a {
       left: 0;
       bottom: 0;
       width: 100%;
-      background-color: rgb(255, 255, 255);
+      /* background-color: rgb(255, 255, 255); */
       text-align: center;
       /* padding-left: 60px; */
       
