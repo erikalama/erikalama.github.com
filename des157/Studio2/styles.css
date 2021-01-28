@@ -1,0 +1,11 @@
+label {
+    float: left;
+    width: 250px;
+    clear: left;
+    text-align: right;
+    padding-right: 1em;
+  }
+  
+  input {
+    float: left;
+  }

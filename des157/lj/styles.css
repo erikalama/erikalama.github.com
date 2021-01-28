@@ -25,6 +25,11 @@ h1 {
     padding: 10px; 
   }
   
+  .boxarticle {
+    font-size: large;
+    line-height: 32px;
+  }
+
   section {
     margin: 50px 0px 50px 0px;
   }
