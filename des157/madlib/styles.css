@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+body {
+  background-image: url(image/madlibs.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+#myForm{
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  align-self: center;
+  padding-right:80px;
+}
+
+label {
+    float: left;
+    width: 165px;
+    margin: 5px 0;
+    clear: left;
+    text-align: right;
+    padding-right: 1em;
+  }
+
+  
+  input {
+    float: left;
+    margin: 5px 0;
+  } 
+
+  input[type="text"]:focus {
+    background-color: #d3eaff;
+  }
+
+
+ /* THIS IS FOR SUBMIT BUTTON */
+  
+  input[type="submit"] {
+    width: 25%;
+    height:28px;
+    margin: 2%;
+    border-radius: 5px;
+    float: right;
+    background-color: transparent;
+    border: 2px #e0e0e0 solid;
+    color: #000000;
+    font-weight:bold;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    border:none;
+    background-color: #94d4ff;
+    color: white;
+    font-weight: 400;
+  }
+  
+
+
+  fieldset {
+    background-color: white;
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:40px;
+
+  }
+
+
+
+  /* this is for the madlib story */
+  
+  #output {
+  font-size: 120%;
+  width: 500px;
+  color: #fff;
+  margin-top: 10px;
+  padding-right: 100px;
+  /* background-color: #fff; */
+}
+
+
