@@ -5,7 +5,7 @@
 
 
 body {
-  background-image: url(image/madlibs.svg);
+  background-image: url(image/madlibs_2.tif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +63,7 @@ label {
     border-radius: 5px;
     float: right;
     background-color: transparent;
-    border: 2px #e0e0e0 solid;
+    border: .5px #e0e0e0 solid;
     color: #000000;
     font-weight:bold;
     cursor: pointer;
@@ -71,7 +71,7 @@ label {
 
   input[type="submit"]:hover {
     border:none;
-    background-color: #94d4ff;
+    background-color: #9f94ff;
     color: white;
     font-weight: 400;
   }
@@ -79,7 +79,7 @@ label {
 
 
   fieldset {
-    background-color: white;
+    background-color: #b2aad4;
     border-radius: 20px;
     width: 450px;
     text-align: center;
@@ -102,3 +102,20 @@ label {
 }
 
 
+/* ///////for footer//////  */
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* padding-bottom: 60px; */
+
+  
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
