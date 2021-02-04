@@ -86,9 +86,7 @@ label {
     text-align: center;
     padding-top: 40px;
     padding-bottom:40px;
-
   }
-
 
 
   /* this is for the madlib story */
@@ -106,13 +104,12 @@ label {
 /* ///////for footer//////  */
 
 footer {
-  left: 0;
+  /* left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100%; */
   text-align: center;
-  /* padding-bottom: 60px; */
-
-  
+  /* padding-bottom: 20px; */
+  padding: 10px; 
 }
 
 footer a {
