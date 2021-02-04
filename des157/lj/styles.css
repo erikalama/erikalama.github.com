@@ -50,6 +50,20 @@ h1 {
 }
 
 
+/* ///////////this is for the link on Responce 3//////// */
+
+.middle {
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
 /* footer */
 
   footer {
@@ -67,5 +81,6 @@ h1 {
       text-decoration: none;
     
   }
+
 
  
