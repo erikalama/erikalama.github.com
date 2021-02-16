@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+   
     <title>Every Picture</title>
 </head>
 <body>
-    <h1>Buddhism</h1>
-    <h2>Tap on the image details to learn more about it!</h2>
-
-    <div id="container">
-        <img src="images/buddha.png" alt="buddha" class="sun">
+    <div class="sameRow col1" id="container">
+        <img src="images/buddha3.jpg" alt="buddha">
+        <button class="btn" id="b1">1</button>
+        <button class="btn" id="b2">2</button>
+        <button class="btn" id="b3">3</button>
+        <button class="btn" id="b4">4</button>
+    </div>
+    <div class="sameRow col2 overlay" id="overlay1">
+        <h1>Buddhism</h1>
+        <h2>These Buddha statues are my family jewel and had been handed down from one generation to the next. These statues are made from gold and copper and handcrafted from the scratch. The faces of each Buddha are skillfully painted by a fine brush and are very delicate. Hover over the image to learn more.</h2>
+        <h1 id="head"></h1>
+        <p id="para"></p>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>

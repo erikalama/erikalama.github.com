@@ -1,12 +1,115 @@
+
 h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-#container img {
-    width: auto;
-    height: 600;
-}
+    
+    font-family: cursive;}
+    
+    
+    h2 {
+        font-size: medium;
+        font-family: cursive;
+    }
+    html,body{
+        height:100vh;
+        margin-top: 0px;
+    }
+    
+    #head{
+        margin-top:100px;
+        font-family: cursive;
+        }
+    
+    #container img{
+        height: 100vh;
+        /* height:700px;  */
+        width:100%;
+        object-fit: cover;
+        /* position: relative; */
+    }
+    #container{
+        position: relative;
+        margin-left: -14px;
+    }
+    #b2{
+        padding: 10px;
+        width:28%;
+        height:16%;
+        background-color: transparent;
+        /* border: 2px solid white; */
+        color: white;
+        text-align: right;
+        position:absolute;
+        top:32%;
+        left:36%;
+        cursor: pointer;
+        outline: none;
+        border:none;
+    }
+    #b3{
+        padding: 10px;
+        width:28%;
+        height:16%;
+        background-color: transparent;
+        /* border: 2px solid white; */
+        color: white;
+        text-align: right;
+        position:absolute;
+        top:50%;
+        left:36%;
+        cursor: pointer;
+        outline: none;
+        border:none;
+    }
+    #b4{
+        padding: 10px;
+        width:48%;
+        height:20%;
+        background-color: transparent;
+        /* border: 2px solid white; */
+        color: white;
+        text-align: right;
+        position:absolute;
+        top:67%;
+        left:30%;
+        cursor: pointer;
+        outline: none;
+        border:none;
+    }
+    #b1{
+        padding: 10px;
+        width:28%;
+        height:16%;
+        background-color: transparent;
+        /* border: 2px solid white; */
+        color: white;
+        text-align: right;
+        position:absolute;
+        top:13%;
+        left:36%;
+        cursor: pointer;
+        outline: none;
+        border:none;
+    }
+    
+    
+    /* this is for the box hover that appears in the image  */
+    .btn:hover{
+        border: 2px solid white !important;
+    }
+    .sameRow{
+        float: left;
+        max-height: 100vh;
+    }
+    .col1{
+        width:70%;
+    }
+    .col2{
+        width:24%;
+        max-height: 100vh;
+        margin-left: -15px;
+    }
+    .overlay{
+        padding-top: 20px;
+        padding-left: 80px;
+        max-height: 100vh;
+        /* display: none; */
+    }
