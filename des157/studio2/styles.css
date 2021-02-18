@@ -32,6 +32,11 @@
         position: relative;
         margin-left: -14px;
     }
+
+
+     /* This are for the four boxes that appear in the image 
+    when hovored. I also added 'cursor pionter' which I learned this 
+    week and I found it really helpful to use  */
     #b2{
         padding: 10px;
         width:28%;
@@ -48,9 +53,6 @@
         border:none;
     }
 
-
-    /* This are for the four boxes that appear in the image 
-    when hovored.  */
     #b3{
         padding: 10px;
         width:28%;

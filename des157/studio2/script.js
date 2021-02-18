@@ -18,8 +18,8 @@ const para3="Shrine or Monument. The middle stupa itself is a symbol of the Budd
 const para4="Set of 7 water offering Bowls known as 'Dintsar' are traditionally placed on Buddhist shrines and filled with water every morning as a way of collecting merit and virtue. We offer water every morning and collect them before the sunsets. ";
 
 
-// this is for the each box that will 
-// appear when clicked on the image
+// this is for each box that will 
+// appear when hovered on the image
 const b1=document.getElementById("b1");
 const b2=document.getElementById("b2");
 const b3=document.getElementById("b3");
@@ -30,27 +30,29 @@ const headVal=document.getElementById("head");
 const para=document.getElementById("para");
 
 
-// Here I created functions (when CLICKED on the box on the image) h1 and p overlay pop-up on the right side of the page. 
-b1.addEventListener("click",function(){
-    headVal.innerHTML=head1;
-    para.innerHTML=para1;
-    overlay.style.display="block";
-});
+// Here I created functions (when CLICKED on the box on the image) head and paragraph overlay pop-up on the right side of the page. 
+    b1.addEventListener("click",function(){
+        headVal.innerHTML=head1;
+        para.innerHTML=para1;
+        overlay.style.display="block";
+    });
 
-b2.addEventListener("click",function(){
-    headVal.innerHTML=head2;
-    para.innerHTML=para2;
-    overlay.style.display="block";
-});
-b3.addEventListener("click",function(){
-    headVal.innerHTML=head3;
-    para.innerHTML=para3;
-    overlay.style.display="block";
-});
-b4.addEventListener("click",function(){
-    headVal.innerHTML=head4;
-    para.innerHTML=para4;
-    overlay.style.display="block";
-});
+    b2.addEventListener("click",function(){
+        headVal.innerHTML=head2;
+        para.innerHTML=para2;
+        overlay.style.display="block";
+    });
+
+    b3.addEventListener("click",function(){
+        headVal.innerHTML=head3;
+        para.innerHTML=para3;
+        overlay.style.display="block";
+    });
+
+    b4.addEventListener("click",function(){
+        headVal.innerHTML=head4;
+        para.innerHTML=para4;
+        overlay.style.display="block";
+    });
 
 }());
