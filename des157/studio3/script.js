@@ -1,6 +1,3 @@
-(function(){
-    'use strict';
-
 
 const startGame = document.getElementById('startgame');
 const game = document.getElementById('game');
@@ -120,5 +117,3 @@ function sound(src) {
         this.sound.pause();
     }    
 }
-
-}());
