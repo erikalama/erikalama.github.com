@@ -14,15 +14,15 @@
 
 @keyframes animate{
     0% {
-        background-color:  rgb(236, 199, 130);
+        background-color:  rgb(185, 214, 195);
     }
 
     50% {
-        background-color:  rgb(228, 190, 121);
+        background-color:  rgb(224, 194, 194);
     }
 
     0% {
-        background-color:  rgb(245, 221, 185);
+        background-color:  rgb(191, 199, 219);
     }
 }
 
@@ -31,7 +31,7 @@
     height: 250px; 
     border-radius: 8px;   
     position: absolute;
-    background-color: rgb(212, 189, 159);
+    background-color: rgb(241, 218, 187);
 }
 
 
