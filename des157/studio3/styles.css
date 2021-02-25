@@ -1,0 +1,120 @@
+body {
+  font-family: Arial;
+  color: #333;
+  padding: 50px;
+  line-height: 1.5em;
+  background: rgb(83, 109, 119);
+  padding-top: 10%;
+  background: linear-gradient(
+    90deg,
+    rgba(83, 109, 119, 1) 0%,
+    rgba(191, 138, 125, 1) 100%
+  );
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+#gametitle {
+  text-align: center;
+  position: relative;
+  top: 80px;
+  margin-top: -60px;
+}
+
+#gameboard {
+  display: flex;
+  background: linear-gradient(90deg, #c7dae0 50%, #deccce 50%);
+  text-align: center;
+  padding-top: 80px;
+}
+
+#player1 {
+  font-size: 22px;
+  flex: 1;
+}
+
+#player2 {
+  font-size: 22px;
+  flex: 1;
+}
+
+.playerscore {
+  font-size: 52px;
+}
+
+.playercurrentscore {
+  margin-top: 70px;
+  display: inline-block;
+  margin-bottom: 55px;
+  padding: 4px 30px;
+  box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.playercurrentscore > h6,
+.playercurrentscore > div {
+  margin: 0;
+  padding: 0;
+}
+#player1 .playercurrentscore {
+  background-color: #deccce;
+}
+
+#player2 .playercurrentscore {
+  background-color: #c7dae0;
+}
+
+#gameactions {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  /* background-color: darkorange; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#gameactions > button {
+  margin: 0 auto;
+  text-align: center;
+  margin: 15px 0;
+  padding: 2px 18px;
+  background-color: #dbe2e5;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  box-shadow: -3px 8px 13px -2px rgba(0, 0, 0, 0.75);
+}
+
+#gameactions > button:active {
+  box-shadow: -3px 8px 13px -2px rgba(0, 0, 0, 0.55);
+}
+
+
+/* /////RULES/////// */
+
+#rules {
+  background-color: #dbe2e5;
+  margin: 20px 0;
+  padding: 10px 80px;
+  font-size: 12px;
+}
+
+
+/* ////////footer//////// */
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+footer a{
+  padding: 0 4rem;
+}
+
+footer a:hover {
+  background-color: rgb(211, 211, 211);
+}

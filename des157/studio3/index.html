@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of PIG</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h2 id="gametitle">GAME OF PIG</h2>
+        <div id="gameboard">
+            <div id="player1">
+                <h4 class="playername">PLAYER ~ 1</h4>
+                <div class="playerscore">0</div>
+                <div class="playercurrentscore">
+                    <h6>Current Score</h6>
+                    <div>0</div>
+                </div>
+            </div>
+            <div id="gameactions">
+                <div id="topcomments"></div>
+                <div id="game"></div>
+                <div id="bottomcomments"></div>
+
+                <button id="startgame">Start Game</button>
+                <button id="roll" onclick="throwDice()">Roll the Dice</button>
+                <button id="pass">Pass</button>
+            </div>
+            <div id="player2">
+                <h4 class="playername">PLAYER ~ 2</h4>
+                <div class="playerscore">0</div>
+                <div class="playercurrentscore">
+                    <h6>Current Score</h6>
+                    <div>0</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="rules">
+            <h2>RULES</h2>
+            <p>
+                There are two players. The player whose turn it is rolls the dice. The total of the roll is added to the
+                current
+                player's score, unless either die comes up as a "one". If this happens, this player's turn is over, and
+                it
+                is
+                the other player’s turn. After each roll, the current player can either roll again, (assuming a "one"
+                was
+                not
+                rolled) or if the current player feels that luck is running thin, they can pass to the other player.
+            </p>
+            <p>
+                The first player to get 30 points or higher wins.<br />
+                Oh, and if you roll two "ones" (snake eyes), your current score gets zeroed out. So don’t do that.
+            </p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+        <a href="sourse.html">Source</a>
+    </footer>
+
+</body>
+
+</html>
