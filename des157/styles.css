@@ -9,7 +9,21 @@
     background-color: rgb(250, 232, 200);
     box-sizing: border-box;
     margin: auto;
-    
+    animation: animate 5s ease infinite;
+}
+
+@keyframes animate{
+    0% {
+        background-color:  rgb(236, 199, 130);
+    }
+
+    0% {
+        background-color:  rgb(224, 184, 109);
+    }
+
+    0% {
+        background-color:  rgb(245, 221, 185);
+    }
 }
 
 #arrayfish div{
@@ -18,8 +32,8 @@
     border-radius: 8px;   
     position: absolute;
     background-color: rgb(212, 189, 159);
-
 }
+
 
 #ban {
     text-align: center;
@@ -69,6 +83,7 @@ h2 {
 
 body {
     background-color: rgb(255, 250, 238);
+    padding-top: 15px;
 }
 
 section {
@@ -110,7 +125,9 @@ hr {
     width: 200px;
 }
 
-
+main {
+    padding-top: 12px;
+}
 
 
 /* //////////* FOOTER */
@@ -123,7 +140,7 @@ footer{
 }
 
 footer a{
-    padding: 0 3rem;
+    padding: 0 4rem;
 }
 
 footer a:hover {
