@@ -6,7 +6,7 @@
     height: 250px;
     border-radius: 8px;
     position: relative;
-    background-color: rgb(250, 232, 200);
+    background-color: rgb(188, 209, 223);
     box-sizing: border-box;
     margin: auto;
     animation: animate 5s ease infinite;
@@ -14,25 +14,25 @@
 
 @keyframes animate{
     0% {
-        background-color:  rgb(185, 214, 195);
+        background-color:  rgb(184, 207, 226);
     }
 
     50% {
-        background-color:  rgb(224, 194, 194);
+        background-color:  rgb(236, 208, 208);
     }
 
     0% {
-        background-color:  rgb(191, 199, 219);
+        background-color:  rgb(154, 192, 207) 0%;
     }
 }
 
-#arrayfish div{
+/* #arrayfish div{
     width: 40px;
     height: 250px; 
     border-radius: 8px;   
     position: absolute;
-    background-color: rgb(241, 218, 187);
-}
+    background-color: rgb(226, 218, 200);
+} */
 
 
 #ban {
@@ -54,6 +54,35 @@
     from {left: 50px;}
   to {left: calc(90% - 20px);}
 }
+
+
+
+/* ////////////////// HEAR INSIDE THE BANNER /////////////// */
+#heart { 
+    position: absolute;
+} 
+
+#heart:before, #heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0;
+    width: 50px; 
+    height: 80px; 
+    background: rgb(240, 180, 194); 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+#heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
+/* ////////////////// HEAR INSIDE THE BANNER /////////////// */
+
+
 
 
 
@@ -84,6 +113,11 @@ h2 {
 body {
     background-color: rgb(255, 250, 238);
     padding-top: 15px;
+    background: linear-gradient(
+        90deg,
+        rgb(190, 219, 231) 0%,
+        rgb(241, 218, 213) 100%
+      );
 }
 
 section {
