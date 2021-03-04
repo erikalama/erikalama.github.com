@@ -11,6 +11,10 @@ h2 {
     margin: 0;
   }
   
+  #image {
+    max-width: 30%;
+    display: flex;
+  }
   
   body {
     background: linear-gradient(
@@ -67,7 +71,7 @@ h2 {
 #myForm {
     margin-left: 54%;
     margin-right: 8%;
-    padding-top: 15%;
+    /* padding-top: 15px; */
     font-family: 'Times New Roman', Times, serif;
     color: white;
 
