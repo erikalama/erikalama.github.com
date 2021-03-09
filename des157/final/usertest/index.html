@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Mad Lib Script</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link href="http://fonts.cdnfonts.com/css/angelina" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body> 
+
+    <audio controls id="audio_song" hidden>
+      <source src="music/Dance tonight ( electro-pop, dance, house beat) prod. by Jandy.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <main>
+
+        <div id="box1">
+
+            <div class="box2 step1">
+                <div class="outer-box">
+                    <div class="inner-box">
+                        <h1>TASK</h1>
+                        <p class="ma-25">
+                            Hello:) Please complete these following task.<br>
+                            - Please fill out the form.<br>
+                            - Submit your answer.<br>
+                            - Review your "sing" Mad Libs.<br>
+                            - Re-start new form.
+                        </p>
+                        <button type="button" class="trans-btn next-sec play-music">LET'S GO</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box2" style="display: none;">
+
+                <div id="logoArea">
+                    <img src="gif/heading.gif" width="100%">
+                    <img src="gif/microphone.gif" width="330px">
+                </div>
+
+            
+                <form id="myForm" class="right-area font-cus">
+
+                    <fieldset>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name">
+
+                        <br>
+
+                        <label for="animal">Funny Animal</label>
+                        <input type="text" id="animal">
+
+                        <br>
+
+                        <label for="verb">Verb</label>
+                        <input type="text" id="verb">
+
+                        <br>
+
+                        <label for="cartoon">Cartoon Character</label>
+                        <input type="text" id="cartoon">
+
+                        <br>
+
+                        <label for="adjective">Adjective</label>
+                        <input type="text" id="adjective">
+
+                        <br>
+
+                        <input type="submit" value="submit" class="next-sec">
+                        
+
+                    </fieldset>
+                </form>  
+
+            </div>
+
+            <div class="box2" style="display: none;">
+
+                <div id="logoArea">
+                    <img src="gif/heading.gif" width="100%">
+                    <img src="gif/microphone.gif" width="330px">
+                </div>
+            
+                <form class="right-area f-output">
+                    <h3 class="text-center font-cus">Wow, You Got This</h3>
+                    <p id="output">
+                    </p>
+                    <button type="button" class="trans-btn fl-right sing-again">Sing Again</button>
+                </form>  
+
+            </div>
+        </div>
+    </main>
+
+<!--  <div id = "output">
+        </div>
+        
+        <article id="madlibs"></article>    --> 
+    <footer>
+        <a href="#">Email</a>
+        <span>/</span>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+        <span>/</span>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
+    
+</body>
+</html>
